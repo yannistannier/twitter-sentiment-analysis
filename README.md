@@ -1,5 +1,5 @@
 
-## Projet Twitter Sentiment analysis 2017
+## Projet Twitter Sentiment analysis
 
 En cours ..
 
