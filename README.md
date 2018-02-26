@@ -1,6 +1,6 @@
 
 ## Projet Twitter Sentiment analysis 2017
 
-bientot ..
+En cours ..
 
-Livraison debut mars
+Demo : https://twitter.yannistannier.io
