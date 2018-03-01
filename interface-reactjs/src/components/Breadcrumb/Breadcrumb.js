@@ -18,7 +18,7 @@ const getPaths = (pathname) => {
   return paths;
 };
 
-const BreadcrumbsItem = ({...rest, match}) => {
+const BreadcrumbsItem = ({ ...rest, match }) => {
   const routeName = findRouteName(match.url);
   if (routeName) {
     return (

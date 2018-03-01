@@ -258,10 +258,10 @@ class ArchiveUser extends Component {
                           <NavLink href="#/archive" >Summary</NavLink>
                         </NavItem>
                         <NavItem>
-                          <NavLink href="#/archive/month" >Par mois</NavLink>
+                          <NavLink href="#/archive/month" >Monthly</NavLink>
                         </NavItem>
                         <NavItem>
-                          <NavLink href="#/archive/user" active>Par utilisateur</NavLink>
+                          <NavLink href="#/archive/user" active>User</NavLink>
                         </NavItem>
                       </Nav>  
                   </CardBody>
@@ -271,14 +271,14 @@ class ArchiveUser extends Component {
             <Col xs="12" sm="10" md="10">
                 <Card>
               <CardHeader className="text-center">
-                <span style={{fontWeight:'bold',fontSize:18}}>Analyse par utilisateur - 2017</span>
+                <span style={{fontWeight:'bold',fontSize:18}}>Analysis on users</span>
               </CardHeader>
               <CardBody>
     
                     <Row style={{marginBottom:0}} >
                       <Col xs="12" sm="3" md="3"> </Col>
                       <Col xs="12" sm="4" md="4">
-                            <Input onChange={(e) => this.setState({username:e.currentTarget.value})} type="text" id="cvv" placeholder="Saisir un utilisateur"/>
+                            <Input onChange={(e) => this.setState({username:e.currentTarget.value})} type="text" id="cvv" placeholder="Enter a user"/>
                       </Col>
                       <Col xs="12" sm="2" md="2">
                             <Button outline block active type="submit" color="success" onClick={() => this.search() }>
@@ -310,7 +310,7 @@ class ArchiveUser extends Component {
 
                  <Card>
                     <CardHeader className="text-center">
-                        <span style={{fontWeight:'bold',fontSize:18}}>Resultat</span>
+                        <span style={{fontWeight:'bold',fontSize:18}}>Result</span>
                     </CardHeader>
                     <CardBody>
           
@@ -329,7 +329,7 @@ class ArchiveUser extends Component {
                           <Row>
                               <Col xs="12" sm="12" md="12" className="container justify-content-md-center text-center">
                                   <div style={{paddingTop:10, fontSize:16, color:"#20a8d8"}}>{this.state.username}</div>
-                                  <div><small style={{color:"red"}}>Compté bloqué</small></div>
+                                  <div><small style={{color:"red"}}>Blocked account</small></div>
                               </Col>
                           </Row>
                           }
@@ -353,10 +353,10 @@ class ArchiveUser extends Component {
                               <div>
                                 <Row style={{paddingTop:20, paddingBottom:20}}>
                                   <Col xs="12" sm="6" md="6" style={{paddingBottom:10}}>  
-                                      <ListGroupItem>Total tweet: <b>{this.state.tweets.total}</b> </ListGroupItem>
+                                      <ListGroupItem>Total tweets: <b>{this.state.tweets.total}</b> </ListGroupItem>
                                   </Col>
                                   <Col xs="12" sm="6" md="6" style={{paddingBottom:10}}> 
-                                       <ListGroupItem>Total retweet: <b>{this.state.retweets}</b></ListGroupItem>
+                                       <ListGroupItem>Retweeted times: <b>{this.state.retweets}</b></ListGroupItem>
                                   </Col>
                                 </Row>
                                 <hr />
@@ -364,7 +364,7 @@ class ArchiveUser extends Component {
                                 <Row>
 
                                   <Col xs="12" sm="12" md="12" style={{paddingBottom:0}}>  
-                                        <div className="text-center" style={{ fontSize:15 }}><b>Profil psychologique de l'utilisateur</b><br/></div>
+                                        <div className="text-center" style={{ fontSize:15 }}><b>Psychological profil</b><br/></div>
 
                                         <Row>
                                             <Col xs="12" sm="3" md="3"> </Col>
@@ -398,7 +398,7 @@ class ArchiveUser extends Component {
 
                                 <Row style={{paddingBottom:10}}>
                                   <Col xs="12" sm="12" md="12" style={{paddingBottom:10, paddingTop:20}}>
-                                      <div className="text-center" style={{ fontSize:15 }}><b>Analyse Emotionnel au cours de l'année </b><br/></div>
+                                      <div className="text-center" style={{ fontSize:15 }}><b>Sentimental Analysis in the current year of 2017</b><br/></div>
                                   </Col>
                                   <Col xs="12" sm="6" md="6">
                                     <div className="chart-wrapper">
@@ -425,7 +425,7 @@ class ArchiveUser extends Component {
                                 {this.state.hashtags.length > 0 && 
                                 <Row>
                                     <Col xs="12" sm="12" md="12" style={{paddingBottom:10, paddingTop:20}}>
-                                      <div className="text-center" style={{ fontSize:15 }}><b>Tendance de l'utilisateur</b><br/></div>
+                                      <div className="text-center" style={{ fontSize:15 }}><b>Trends on user</b><br/></div>
                                     </Col>
                                     <Col xs="12" sm="7" md="7" style={{paddingTop:20}}>
                                       <BootstrapTable
@@ -510,7 +510,7 @@ class ArchiveUser extends Component {
                           }
 
                         {this.state.fetched == 2 && 
-                          <div className="text-center"> Aucune donnée pour cet utilisateur </div>
+                          <div className="text-center">No data currently found on this user !</div>
                         }
 
                     </CardBody>

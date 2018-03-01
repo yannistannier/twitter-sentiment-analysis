@@ -178,13 +178,13 @@ class RealTime extends Component {
           <Col xs="12" sm="12" md="12">
             <Card>
               <CardHeader >
-                <div className="text-center" style={{fontSize:16}}> <b>Analyse en temps reel</b> </div>
+                <div className="text-center" style={{fontSize:16}}> <b>Real-Time Stream on Trends or Users</b> </div>
               </CardHeader>
               <CardBody style={{fontSize:16}}>
                   <Row style={{marginBottom:0}} >
                       <Col xs="12" sm="3" md="3"> </Col>
                       <Col xs="12" sm="4" md="4">
-                            <Input onChange={(e) => this.setState({filter:e.currentTarget.value})} type="text" id="cvv" placeholder="Saisir un mot clé"/>
+                            <Input onChange={(e) => this.setState({filter:e.currentTarget.value})} type="text" id="cvv" placeholder="Enter a keyword"/>
                       </Col>
                       <Col xs="12" sm="2" md="2">
                           {this.state.load && 
@@ -197,7 +197,7 @@ class RealTime extends Component {
                               </Row>
                             ||
                             <Button outline block active type="submit" color="success" onClick={() => this.goSearch() }>
-                              <i className="fa fa-dot-circle-o"></i> Analyse
+                              <i className="fa fa-dot-circle-o"></i> Analys
                             </Button>
                           }
                       </Col>
@@ -208,7 +208,7 @@ class RealTime extends Component {
 
                     <Row style={{marginBottom:0}} >
                       <Col xs="12" sm="12" md="12"> 
-                          <div className="text-center" style={{fontSize:15}}> <b>Tendances du moment</b> </div>
+                          <div className="text-center" style={{fontSize:15}}> <b>Current Trend</b> </div>
                       </Col>
                       <Col xs="12" sm="12" md="12" className="text-center"> 
                           {this.state.trend.map((item, index) => (
@@ -246,10 +246,10 @@ class RealTime extends Component {
                     <hr />
                     <Row style={{paddingTop:20, paddingBottom:20}}>
                       <Col xs="12" sm="6" md="6" style={{paddingBottom:10}}>  
-                          <ListGroupItem>Total tweet analysée: <b>{this.state.tweets}</b> </ListGroupItem>
+                          <ListGroupItem>Sum tweets analysed: <b>{this.state.tweets}</b> </ListGroupItem>
                       </Col>
                       <Col xs="12" sm="6" md="6" style={{paddingBottom:10}}> 
-                           <ListGroupItem>Total retweets: <b>{this.state.retweets}</b></ListGroupItem>
+                           <ListGroupItem>Sum of retweets: <b>{this.state.retweets}</b></ListGroupItem>
                       </Col>
                     </Row>
 
@@ -302,7 +302,7 @@ class RealTime extends Component {
                     <Row>
                       <Col xs="12" sm="12" md="12">
                             <Col xs="12" sm="12" md="12">
-                                <div className="text-center" style={{ fontSize:16, paddingBottom:20 }}><b>Analyse psychologique global</b><br/></div>
+                                <div className="text-center" style={{ fontSize:16, paddingBottom:20 }}><b>Psychological Analysis</b><br/></div>
                             </Col>
                         </Col>
                         <Col xs="12" sm="2" md="2"></Col>
@@ -334,7 +334,7 @@ class RealTime extends Component {
                           <BootstrapTable
                             data={ this.messages }
                             pagination>
-                            <TableHeaderColumn dataAlign='center' isKey={true} dataField='text'>Flux de Tweet</TableHeaderColumn>
+                            <TableHeaderColumn dataAlign='center' isKey={true} dataField='text'>Tweet Sream</TableHeaderColumn>
                           </BootstrapTable>
                         </Col>
                       </Row>

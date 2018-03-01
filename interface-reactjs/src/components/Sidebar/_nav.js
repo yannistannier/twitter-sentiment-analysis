@@ -6,12 +6,12 @@ export default {
       icon: 'icon-speedometer'
     },
     {
-      name: 'Archive 2017',
+      name: 'Big Data',
       url: '/archive',
       icon: 'icon-layers'
     },
     {
-      name: 'Temps Reel',
+      name: 'Real-Time Stream',
       url: '/realtime',
       icon: 'icon-chart'
     }

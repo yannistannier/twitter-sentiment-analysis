@@ -261,10 +261,10 @@ class ArchiveMonth extends Component {
                         <NavLink href="#/archive" >Summary</NavLink>
                       </NavItem>
                       <NavItem>
-                        <NavLink href="#/archive/month" active>Par mois</NavLink>
+                        <NavLink href="#/archive/month" active>Monthly</NavLink>
                       </NavItem>
                       <NavItem>
-                        <NavLink href="#/archive/user">Par utilisateur</NavLink>
+                        <NavLink href="#/archive/user">User</NavLink>
                       </NavItem>
                     </Nav>  
                 </CardBody>
@@ -274,80 +274,80 @@ class ArchiveMonth extends Component {
               
             <Card>
               <CardHeader className="text-center">
-                <span style={{fontWeight:'bold',fontSize:18}}>Analyse par mois - 2017</span>
+                <span style={{fontWeight:'bold',fontSize:18}}>Monthly analysis about 2017</span>
               </CardHeader>
               <CardBody>
                   <div className="text-center" style={{paddingBottom:20}}>
                     {this.state.page == 1 && 
-                      <Button onClick={() => this.getData(1)} color="primary">Janvier</Button>
+                      <Button onClick={() => this.getData(1)} color="primary">January</Button>
                     || 
-                      <Button onClick={() => this.getData(1)}  outline color="primary">Janvier</Button>
+                      <Button onClick={() => this.getData(1)}  outline color="primary">January</Button>
                     } &nbsp;
 
                     {this.state.page == 2 && 
-                      <Button onClick={() => this.getData(2)}  color="primary">Fevrier</Button> 
+                      <Button onClick={() => this.getData(2)}  color="primary">February</Button> 
                     || 
-                      <Button onClick={() => this.getData(2)}  outline color="primary">Fevrier</Button> 
+                      <Button onClick={() => this.getData(2)}  outline color="primary">February</Button> 
                     } &nbsp;
 
                     {this.state.page == 3 && 
-                      <Button onClick={() => this.getData(3)}  color="primary">Mars</Button> 
+                      <Button onClick={() => this.getData(3)}  color="primary">March</Button> 
                     || 
-                      <Button onClick={() => this.getData(3)}  outline color="primary">Mars</Button> 
+                      <Button onClick={() => this.getData(3)}  outline color="primary">March</Button> 
                     } &nbsp;
 
                     {this.state.page == 4 && 
-                      <Button onClick={() => this.getData(4)}  color="primary">Avril</Button> 
+                      <Button onClick={() => this.getData(4)}  color="primary">April</Button> 
                     || 
-                      <Button onClick={() => this.getData(4)}  outline color="primary">Avril</Button> 
+                      <Button onClick={() => this.getData(4)}  outline color="primary">April</Button> 
                     } &nbsp;
 
                     {this.state.page == 5 && 
-                      <Button onClick={() => this.getData(5)}  color="primary">Mai</Button> 
+                      <Button onClick={() => this.getData(5)}  color="primary">May</Button> 
                     || 
-                      <Button onClick={() => this.getData(5)}  outline color="primary">Mai</Button> 
+                      <Button onClick={() => this.getData(5)}  outline color="primary">May</Button> 
                     } &nbsp;
 
                     {this.state.page == 6 && 
-                      <Button onClick={() => this.getData(6)}  color="primary">Juin</Button> 
+                      <Button onClick={() => this.getData(6)}  color="primary">June</Button> 
                     || 
-                      <Button onClick={() => this.getData(6)}  outline color="primary">Juin</Button> 
+                      <Button onClick={() => this.getData(6)}  outline color="primary">June</Button> 
                     } &nbsp;
 
                     {this.state.page == 7 && 
-                      <Button onClick={() => this.getData(7)}  color="primary">Juillet</Button> 
+                      <Button onClick={() => this.getData(7)}  color="primary">July</Button> 
                     || 
-                      <Button onClick={() => this.getData(7)}  outline color="primary">Juillet</Button> 
+                      <Button onClick={() => this.getData(7)}  outline color="primary">July</Button> 
                     } &nbsp;
 
                     {this.state.page == 8 && 
-                      <Button onClick={() => this.getData(8)}  color="primary">Aout</Button> 
+                      <Button onClick={() => this.getData(8)}  color="primary">August</Button> 
                     || 
-                      <Button onClick={() => this.getData(8)}  outline color="primary">Aout</Button> 
+                      <Button onClick={() => this.getData(8)}  outline color="primary">August</Button> 
                     } &nbsp;
 
                     {this.state.page == 9 && 
-                      <Button onClick={() => this.getData(9)}  color="primary">Septembre</Button> 
+                      <Button onClick={() => this.getData(9)}  color="primary">September</Button> 
                     || 
-                      <Button onClick={() => this.getData(9)}  outline color="primary">Septembre</Button> 
+                      <Button onClick={() => this.getData(9)}  outline color="primary">September</Button> 
                     } &nbsp;
 
                     {this.state.page == 10 && 
-                      <Button onClick={() => this.getData(10)}  color="primary">Octobre</Button> 
+                      <Button onClick={() => this.getData(10)}  color="primary">October</Button> 
                     || 
-                      <Button onClick={() => this.getData(10)}  outline color="primary">Octobre</Button> 
+                      <Button onClick={() => this.getData(10)}  outline color="primary">October</Button> 
                     } &nbsp;
 
                     {this.state.page == 11 && 
-                      <Button onClick={() => this.getData(11)}  color="primary">Novembre</Button> 
+                      <Button onClick={() => this.getData(11)}  color="primary">November</Button> 
                     || 
-                      <Button onClick={() => this.getData(11)}  outline color="primary">Novembre</Button> 
+                      <Button onClick={() => this.getData(11)}  outline color="primary">November</Button> 
                     } &nbsp;
 
                     {this.state.page == 12 && 
-                      <Button onClick={() => this.getData(12)}  color="primary">Decembre</Button> 
+                      <Button onClick={() => this.getData(12)}  color="primary">December</Button> 
                     || 
-                      <Button onClick={() => this.getData(12)}  outline color="primary">Decembre</Button> 
+                      <Button onClick={() => this.getData(12)}  outline color="primary">December</Button> 
                     } &nbsp;
 
                   </div>
@@ -356,7 +356,7 @@ class ArchiveMonth extends Component {
                   
                   <Row style={{paddingTop:10}}>
                       <Col xs="12" sm="12" md="12" style={{paddingBottom:10}}>
-                          <div className="text-center" style={{ fontSize:16 }}><b>Analyse Emotionnel suivant les jours du mois</b><br/></div>
+                          <div className="text-center" style={{ fontSize:16 }}><b>Sentiment analysis following days</b><br/></div>
                       </Col>
                       <Col xs="12" sm="6" md="6">
                         <div className="chart-wrapper">
@@ -384,7 +384,7 @@ class ArchiveMonth extends Component {
                   {this.state.hashtag.length > 0 && 
                   <Row style={{paddingTop:10}}>
                       <Col xs="12" sm="12" md="12" style={{paddingBottom:20}}>
-                          <div className="text-center" style={{ fontSize:16 }}><b>Tendance du mois</b><br/></div>
+                          <div className="text-center" style={{ fontSize:16 }}><b>Trends on months</b><br/></div>
                         </Col>
                       <Col xs="12" sm="7" md="7">
                         
@@ -476,7 +476,7 @@ class ArchiveMonth extends Component {
 
               <Row>
                   <Col xs="12" sm="6" md="6">
-                    <div className="text-center" style={{ fontSize:16, paddingBottom:15 }}><b>Les plus gros tweeters</b><br/></div>
+                    <div className="text-center" style={{ fontSize:16, paddingBottom:15 }}><b>Biggest Tweeter users</b><br/></div>
                     <BootstrapTable
                       data={ this.state.user }
                       pagination>
@@ -492,7 +492,7 @@ class ArchiveMonth extends Component {
                   </Col>
 
                   <Col xs="12" sm="6" md="6">
-                    <div className="text-center" style={{ fontSize:16, paddingBottom:15 }}><b>Les plus retweeter</b><br/></div>
+                    <div className="text-center" style={{ fontSize:16, paddingBottom:15 }}><b>Most retweeted users</b><br/></div>
                     <BootstrapTable
                       data={ this.state.retweet }
                       pagination>
