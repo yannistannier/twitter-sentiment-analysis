@@ -1,0 +1,1 @@
+StructType(List(StructField(list_day,ArrayType(StringType,true),true),StructField(list_emotion,ArrayType(ArrayType(LongType,true),true),true),StructField(list_sentiment,ArrayType(ArrayType(LongType,true),true),true),StructField(user,StringType,true)))

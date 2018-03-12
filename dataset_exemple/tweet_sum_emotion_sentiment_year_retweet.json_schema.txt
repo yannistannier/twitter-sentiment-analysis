@@ -1,0 +1,1 @@
+StructType(List(StructField(retweet,StringType,true),StructField(sum_emotion,ArrayType(LongType,true),true),StructField(sum_sentiment,ArrayType(LongType,true),true),StructField(total,LongType,true)))

@@ -1,0 +1,16 @@
+{
+  "user": "0001_koke",
+  "sum_emotion": [
+    1,
+    0,
+    0,
+    0,
+    0
+  ],
+  "sum_sentiment": [
+    0,
+    1,
+    0
+  ],
+  "total": 1
+}

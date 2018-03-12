@@ -1,0 +1,1 @@
+StructType(List(StructField(count,LongType,true),StructField(user,StringType,true)))
