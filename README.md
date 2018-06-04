@@ -3,8 +3,8 @@
 Scikit-learn, Spark, AWS EMR, S3, Lambda, Kinesis, API Gateway, MQTT, React JS, RDS (Postgres SQL).
 
 We followed two axes :
-	 1.Archive analysis 2017
-	 2.Real time analysis
+1. Archive analysis 2017
+2. Real time analysis
 	
 Website: [here](https://twitter.yannistannier.io)
 
