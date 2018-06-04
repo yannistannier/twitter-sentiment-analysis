@@ -9,4 +9,5 @@ Our main purpose is to build a powerful platform system for real-time data analy
 We also wanted to make a comparison of sentiment analysis methods, for which we have taken a publication and tried to improve the results obtained and to propose new methods.
 
 ### Exemple for the real stream architecture
-![alt text](https://github.com/mbenhamd/database-publication-latex/blob/master/real_stream-schema.png?raw=true)
+<div style="text-align:center"><img src ="https://github.com/mbenhamd/database-publication-latex/blob/master/real_stream-schema.png?raw=true" /></div>
+
