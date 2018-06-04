@@ -1,5 +1,4 @@
 ## Projet Twitter Sentiment Analysis
-
 ### Technologies 
 Scikit-learn, Spark, AWS EMR, S3, Lambda, Kinesis, API Gateway, MQTT, React JS, RDS (Postgres SQL).
 
@@ -7,7 +6,7 @@ We followed two axes :
 	- Archive analysis 2017
 	- Real time analysis
 	
-[Website here](https://twitter.yannistannier.io)
+Website: [here](https://twitter.yannistannier.io)
 
 ### Define a problem you want to solve
 
