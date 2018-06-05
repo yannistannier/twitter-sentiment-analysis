@@ -181,10 +181,10 @@ class Archive extends Component {
                         <NavLink href="#/archive" active>Summary</NavLink>
                       </NavItem>
                       <NavItem>
-                        <NavLink href="#/archive/month">Par mois</NavLink>
+                        <NavLink href="#/archive/month">Monthly</NavLink>
                       </NavItem>
                       <NavItem>
-                        <NavLink href="#/archive/user">Par utilisateur</NavLink>
+                        <NavLink href="#/archive/user">User</NavLink>
                       </NavItem>
                     </Nav>  
                 </CardBody>
@@ -194,22 +194,25 @@ class Archive extends Component {
               
             <Card>
               <CardHeader className="text-center">
-                <span style={{fontWeight:'bold',fontSize:20}}>Sentiment Analysis - Full Archive 2017</span>
+                <span style={{fontWeight:'bold',fontSize:20}}>Sentiment Analysis</span>
               </CardHeader>
               <CardBody>
                   <Row>
                       <Col xs="12" sm="12" md="12">
-                        <div style={{paddingTop:20}}> L'archive tweet 2017 a été téléchargé sur <a href="https://archive.org/details/twitterstream">Archive.org</a> pour un total de <b>5,8 Terabytes</b> de données et <b>1.7 milliard</b> de tweet. </div>
-                        <div> Pour des raisons techniques, l'analyse sentimental et emotionnel a été realisé que sur les tweets écrit en anglais.</div>
+                        <div style={{paddingTop:20}}>The complete archive was downloaded on <a href="https://archive.org/details/twitterstream">Archive.org</a>  for a total of <b>5,8 Terabytes</b> of data and we count <b>1,7 billion of tweets</b>.</div>
+                        <div>A simple collection of JSON grabbed from the general twitter stream, for the purposes of research, history, testing and memory. This is the Spritzer version, the most light and shallow of Twitter grabs. Unfortunately, we do not currently have access to the Sprinkler or Garden Hose versions of the stream.</div>
+                        <div>Pour des raisons techniques, l'analyse sentimental et emotionnel a été realisé que sur les tweets écrit en anglais.</div>
+                        <div>For some technical reasons, only English tweets were analysed.</div>
+                        <div>The email of the uploader <a href="jscott@archive.org">here</a></div>
                         <Row style={{paddingTop:40, fontSize:14}}>
                           <Col xs="4" sm="4" md="4">
-                              <div className="text-center" >Total tweets<br/><b>1,7 milliard</b></div>
+                              <div className="text-center" >Total tweets collected<br/><b>1,7 milliard</b></div>
                           </Col>
                           <Col xs="4" sm="4" md="4">
-                              <div className="text-center">Total tweets analysés<br/><b>875 819 651</b></div>
+                              <div className="text-center">Total tweets analysed<br/><b>875 819 651</b></div>
                           </Col>
                           <Col xs="4" sm="4" md="4">
-                              <div className="text-center">Total hashtags<br/><b>9 385 952</b></div>
+                              <div className="text-center">Number of hashtags<br/><b>9 385 952</b></div>
                           </Col>
                         </Row>
                       </Col>
@@ -217,7 +220,7 @@ class Archive extends Component {
 
                   <Row style={{paddingTop:40}}>
                       <Col xs="12" sm="6" md="6">
-                        <div className="text-center"><b>Analyse Emotionnel suivant les mois</b><br/></div>
+                        <div className="text-center"><b>Monthly analysis about 2017</b><br/></div>
                         <div className="chart-wrapper">
                           <Line data={{
                             labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'],
@@ -236,7 +239,7 @@ class Archive extends Component {
 
                       </Col>
                       <Col xs="12" sm="6" md="6">
-                        <div className="text-center"><b>Analyse Emotionnel suivant le moment de la journée</b><br/></div>
+                        <div className="text-center"><b>Sentiment analysis following days</b><br/></div>
                         <div className="chart-wrapper">
                           <Line data={{
                                 labels: ['Minuit', '1h', '2h', '3h', '4h', '5h', '6h', '7h', '8h', '9h', '10h', '11h', 'Midi', '13h', '14h' ,'15h' ,'16h', '17h' ,'18h' ,'19h', '20h', '21h', '22h', '23h'],
@@ -258,13 +261,13 @@ class Archive extends Component {
 
                   <Nav tabs style={{marginTop:50}}>
                     <NavItem>
-                      <NavLink onClick={() => this.setState({page:0})} href="#" active={this.state.page == 0 && true || false}>Tendances hashtag 2017</NavLink>
+                      <NavLink onClick={() => this.setState({page:0})} href="#" active={this.state.page == 0 && true || false}>Popular Hashtags</NavLink>
                     </NavItem>
                     <NavItem>
-                      <NavLink onClick={() => this.setState({page:1})} href="#" active={this.state.page == 1 && true || false}>Les plus gros tweeters 2017</NavLink>
+                      <NavLink onClick={() => this.setState({page:1})} href="#" active={this.state.page == 1 && true || false}>Popular Tweeter users</NavLink>
                     </NavItem>
                     <NavItem>
-                      <NavLink onClick={() => this.setState({page:2})} href="#" active={this.state.page == 2 && true || false}>Les plus retweeter 2017</NavLink>
+                      <NavLink onClick={() => this.setState({page:2})} href="#" active={this.state.page == 2 && true || false}>Most retweeted</NavLink>
                     </NavItem>
                 </Nav>
                   {this.state.page == 0 &&

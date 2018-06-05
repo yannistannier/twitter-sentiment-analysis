@@ -43,21 +43,21 @@ class Dashboard extends Component {
           <Col xs="12" sm="12" md="12">
             <Card>
               <CardHeader >
-                <div className="text-center" style={{fontSize:24}}> <b>Projet BDD - Analyse emotionnel sur Twitter</b> </div>
+                <div className="text-center" style={{fontSize:24}}><b>A Real Time Stream and Big Data Project – Experimental Sentiment Analysis on Twitter</b> </div>
               </CardHeader>
               <CardBody style={{fontSize:16}}>
-                <div className="text-center"> Bienvenue sur l'interface Web du projet BDD 2018 Paris-Descartes </div>
-                <div className="text-center"> <br/> Ce projet se compose en deux parties :  </div>
-                <div className="text-center"> - Analyse sur une archive 2017 de 6To  </div>
-                <div className="text-center"> - Analyse en temps reel sur les tendances twitter  </div>
+                <div className="text-center">Welcome on the web-based interface for the DataBase Project at Paris-Descartes</div>
+                <div className="text-center"> <br/>This project is currently consisting of two sub-projects :</div>
+                <div className="text-center"> - Analysis on an archive of Twitter containing tweets a sample of 6To between January and December 2017.</div>
+                <div className="text-center"> - Analysis in real time trends Twitter.</div>
                 
                 <Row>
                   <Col xs="12" sm="6" md="6" className="text-center">
-                    <div className="text-center" style={{paddingTop:40}}> <a href="#/archive">Pour acceder à l'archive complete 2017, cliquez ici</a> </div>
+                    <div className="text-center" style={{paddingTop:40}}> <a href="#/archive">Access to the complete archive of 2017 </a> </div>
                   </Col>
 
                   <Col xs="12" sm="6" md="6" className="text-center">
-                    <div className="text-center" style={{paddingTop:40}}> <a href="#/realtime">Pour acceder à l'analyse en temps reel, cliquez ici</a> </div>
+                    <div className="text-center" style={{paddingTop:40}}> <a href="#/realtime">Access to the real-time stream analysis</a> </div>
                   </Col>
 
                 </Row>
@@ -80,7 +80,7 @@ class Dashboard extends Component {
                     <Col xs="12" sm="3" md="3" style={{paddingBottom:10}} className="text-center">
                       <img style={{maxWidth:150}} src="https://scontent-cdt1-1.xx.fbcdn.net/v/t1.0-9/20707990_10213848869726749_5391777343957258299_n.jpg?oh=36da986b8cd6586ecfdad4215ef612ca&oe=5B0FCE76" className="img-avatar" />
                       <div style={{paddingTop:20, fontSize:20, color:"black", fontWeight:"bold"}}>Mohamed Ben Hamdoune</div>
-                      <div style={{paddingTop:5, fontSize:18, color:"grey" }}>Linuxien, Expert Bash</div>
+                      <div style={{paddingTop:5, fontSize:18, color:"grey" }}>Linuxien, Expert Bash, Mec trop balaise WESH</div>
                     </Col>
 
                     <Col xs="12" sm="3" md="3" style={{paddingBottom:10}} className="text-center">

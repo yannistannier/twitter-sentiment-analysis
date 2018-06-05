@@ -1,9 +1,9 @@
 const routes = {
   '/': 'Home',
   '/dashboard': 'Dashboard',
-  '/archive': 'Archive 2017',
-  '/archive/month': 'Archive 2017 - Par mois',
-  '/archive/user': 'Archive 2017 - Par utilisateur',
-  '/realtime': 'Temps reel',
+  '/archive': 'Archive',
+  '/archive/month': 'Archive - Per mois',
+  '/archive/user': 'Archive - Per user',
+  '/realtime': 'Real Stream',
 };
 export default routes;

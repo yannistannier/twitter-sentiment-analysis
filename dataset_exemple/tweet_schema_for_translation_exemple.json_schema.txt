@@ -1,0 +1,1 @@
+StructType(List(StructField(created_at,StringType,true),StructField(followers_count,LongType,true),StructField(friends_count,LongType,true),StructField(lang,StringType,true),StructField(name,StringType,true),StructField(retweet_count,LongType,true),StructField(text,StringType,true)))

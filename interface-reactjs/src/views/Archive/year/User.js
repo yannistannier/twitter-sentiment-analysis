@@ -116,13 +116,13 @@ class User extends Component {
               {this.state.results.length > 0 && 
               <Row style={{paddingTop:30}}>
                   <Col xs="12" sm="6" md="6">
-                    <div className="" style={{paddingBottom:20}}><b>Les plus grosses tendances 2017</b><br/></div>
+                    <div className="" style={{paddingBottom:20}}><b>Biggest trends on 2017</b><br/></div>
 
                     <Table hover responsive className="table-outline mb-0 d-none d-sm-table">
                       <thead className="thead-light">
                       <tr>
-                        <th>Utilisateur</th>
-                        <th >Nb Tweets</th>
+                        <th>Users</th>
+                        <th >Sum</th>
                         <th>Sentiment</th>
                         <th >Emotion</th>
                         <th></th>
@@ -164,7 +164,7 @@ class User extends Component {
 
                   <Col xs="12" sm="6" md="6">
                       {this.state.graph && 
-                      <div className="text-center" style={{fontWeight:'bold', paddingTop:20}}>Graph pour <b><span style={{color:'#1DA1F2'}}>{this.state.graph["user"]}</span></b><br/></div>
+                      <div className="text-center" style={{fontWeight:'bold', paddingTop:20}}>Plot for <b><span style={{color:'#1DA1F2'}}>{this.state.graph["user"]}</span></b><br/></div>
                       }
                       
                       {this.state.graph && 

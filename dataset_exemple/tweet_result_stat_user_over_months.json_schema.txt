@@ -1,0 +1,1 @@
+StructType(List(StructField(emotion,ArrayType(LongType,true),true),StructField(key,StringType,true),StructField(month,LongType,true),StructField(sentiment,ArrayType(LongType,true),true),StructField(total,LongType,true),StructField(user,StringType,true)))

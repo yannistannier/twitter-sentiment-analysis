@@ -1,0 +1,71 @@
+{
+  "created_at": "Sun Jan 01 15:00:00 +0000 2017",
+  "entities": {
+    "hashtags": [
+      {
+        "indices": [
+          27,
+          36
+        ],
+        "text": "milli_ho"
+      },
+      {
+        "indices": [
+          37,
+          44
+        ],
+        "text": "yoruho"
+      }
+    ],
+    "symbols": [],
+    "urls": [],
+    "user_mentions": []
+  },
+  "favorite_count": 0,
+  "favorited": false,
+  "filter_level": "low",
+  "id": 815573294397026300,
+  "id_str": "815573294397026304",
+  "is_quote_status": false,
+  "lang": "ja",
+  "retweet_count": 0,
+  "retweeted": false,
+  "source": "<a href=\"http://www.geocities.jp/sky_raider_t/T-TeraBot.html\" rel=\"nofollow\">TeraBot</a>",
+  "text": "2017/01/02  00:00:00 . 570 #milli_ho #yoruho\n（１つ前のツイート処理時間：231ミリ秒）",
+  "timestamp_ms": "1483282800660",
+  "truncated": false,
+  "user": {
+    "contributors_enabled": false,
+    "created_at": "Thu Dec 17 01:32:15 +0000 2015",
+    "default_profile": false,
+    "default_profile_image": true,
+    "description": "みりほーちゃんがフォロバしたユーザーが、よるほーや時報をピッタリに呟くと数秒後にピタオメリプが行きます。（開発者「零」のPCが起動してる間＝主に２３：５５～３：００にピタオメリプが届きます。）５分前や３秒前のスタンバイツイートがない時は、ごめんなさいお休みです(^^ゞ。是非みりほーにフォローして貰ってやって下さい！",
+    "favourites_count": 170,
+    "followers_count": 30,
+    "friends_count": 28,
+    "geo_enabled": false,
+    "id": 4580027352,
+    "id_str": "4580027352",
+    "is_translator": false,
+    "lang": "ja",
+    "listed_count": 1,
+    "name": "みりほーちゃん",
+    "profile_background_color": "0099B9",
+    "profile_background_image_url": "http://abs.twimg.com/images/themes/theme4/bg.gif",
+    "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme4/bg.gif",
+    "profile_background_tile": false,
+    "profile_image_url": "http://abs.twimg.com/sticky/default_profile_images/default_profile_5_normal.png",
+    "profile_image_url_https": "https://abs.twimg.com/sticky/default_profile_images/default_profile_5_normal.png",
+    "profile_link_color": "0099B9",
+    "profile_sidebar_border_color": "5ED4DC",
+    "profile_sidebar_fill_color": "95E8EC",
+    "profile_text_color": "3C3940",
+    "profile_use_background_image": true,
+    "protected": false,
+    "screen_name": "000ms_ho",
+    "statuses_count": 67325,
+    "time_zone": "Tokyo",
+    "utc_offset": 32400,
+    "verified": false
+  }
+}
